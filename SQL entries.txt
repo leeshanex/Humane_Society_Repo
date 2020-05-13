@@ -11,11 +11,11 @@ Email VARCHAR(50));
 
 
 ////Clients
-INSERT INTO Clients VALUES('John', 'McClain', 'jmcclain', 'diehard', '', 'jmcclain@geemail.com');
-INSERT INTO Clients VALUES('Tony', 'Stark', 'tstark', 'password1', '', 'tstark@geemail.com');
-INSERT INTO Clients VALUES('Dave', 'Chappelle', 'dchappelle', 'rickjames', '', 'dchappele@geemail.com');
-INSERT INTO Clients VALUES('Jimmy', 'Fallon', 'jfallon', 'latenight', '', 'jfallon@geemail.com');
-INSERT INTO Clients VALUES('Karin', 'Gillan', 'kgillan', 'blahblah', '', 'kgillan@geemail.com');
+INSERT INTO Clients VALUES('John', 'McClain', 'jmcclain', 'diehard', '1', 'jmcclain@geemail.com');
+INSERT INTO Clients VALUES('Tony', 'Stark', 'tstark', 'password1', '1', 'tstark@geemail.com');
+INSERT INTO Clients VALUES('Dave', 'Chappelle', 'dchappelle', 'rickjames', '1', 'dchappele@geemail.com');
+INSERT INTO Clients VALUES('Jimmy', 'Fallon', 'jfallon', 'latenight', '1', 'jfallon@geemail.com');
+INSERT INTO Clients VALUES('Karin', 'Gillan', 'kgillan', 'blahblah', '1', 'kgillan@geemail.com');
 
 
 
