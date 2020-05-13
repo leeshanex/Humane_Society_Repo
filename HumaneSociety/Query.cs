@@ -7,9 +7,8 @@ using System.Threading.Tasks;
 namespace HumaneSociety
 {
     public static class Query
-    {        
+    {
         static HumaneSocietyDataContext db;
-
         static Query()
         {
             db = new HumaneSocietyDataContext();
@@ -166,7 +165,21 @@ namespace HumaneSociety
         // TODO: Allow any of the CRUD operations to occur here
         internal static void RunEmployeeQueries(Employee employee, string crudOperation)
         {
-            throw new NotImplementedException();
+            switch (crudOperation)
+            {
+                case "update":
+                    Console.WriteLine();
+                    break;
+                case "read":
+                    Console.WriteLine();
+                    break;
+                case "delete":
+                    Console.WriteLine();
+                    break;
+                case "create":
+                    Console.WriteLine();
+                    break;
+            }
         }
 
         // TODO: Animal CRUD Operations
@@ -190,7 +203,7 @@ namespace HumaneSociety
             throw new NotImplementedException();
         }
         
-        // TODO: Animal Multi-Trait Search
+        //-------------------------------- TODO: Animal Multi-Trait Search ---------------------------------------------
         internal static IQueryable<Animal> SearchForAnimalsByMultipleTraits(Dictionary<int, string> updates) // parameter(s)?
         {
             throw new NotImplementedException();
