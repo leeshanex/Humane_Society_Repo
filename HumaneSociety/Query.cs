@@ -168,16 +168,12 @@ namespace HumaneSociety
             switch (crudOperation)
             {
                 case "update":
-                    Console.WriteLine();
                     break;
                 case "read":
-                    Console.WriteLine();
                     break;
                 case "delete":
-                    Console.WriteLine();
                     break;
                 case "create":
-                    Console.WriteLine();
                     break;
             }
         }
