@@ -4,14 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace HumaneSociety
 {
     public static class Query
     {
-        static HumaneSocietyDataContext db;
+        static DataClasses1DataContext db;
         static Query()
         {
-            db = new HumaneSocietyDataContext();
+            db = new DataClasses1DataContext();
         }
 
         internal static List<USState> GetStates()
